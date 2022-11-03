@@ -34,13 +34,14 @@ body {
     display: block;
     border-radius: 10px;
     margin-bottom: 50px;
+    margin: auto;
     
 }
 
 .card img {
     object-fit: cover;
    max-height: 200px;
-   min-height: 200px;
+   min-width: 200px;
    border-radius: 10px;
    
 }
