@@ -1,14 +1,15 @@
 body {
     margin: 0;
+    background-color: rgb(232, 232, 232);
 }
 
 .twothirds {
     background-position: center;
-    background-image: url(https://static1.srcdn.com/wordpress/wp-content/uploads/2017/04/Harry-Potter-Hogsmeade-Snowy-High-Street.jpg);
+    background-image: url("https://i.pinimg.com/originals/f7/01/42/f7014231c6f006912157efd2ad4bfd33.jpg");
 }
 
 .onethird {
-    background-color: antiquewhite;
+    background-color: rgb(255, 252, 248);
     height: 400px;
 
 }
@@ -30,13 +31,16 @@ body {
 }
 
 .card {
+    display: block;
     border-radius: 10px;
     margin-bottom: 50px;
+    
 }
 
 .card img {
-   max-height: 300px;
-   width: auto;
+    object-fit: cover;
+   max-height: 200px;
+   min-height: 200px;
    border-radius: 10px;
    
 }
@@ -51,3 +55,10 @@ h3 {
     margin-right: 20px;
 }
 
+a {
+    color:rgb(28, 27, 27)
+}
+
+a:hover {
+    color: goldenrod;
+}
